@@ -1,45 +1,42 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: roboto;
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+    
 }
 
 html,body {
-    font-size: 18px;
-    background-color: gainsboro;
-}
-
-h1 {
-    max-width: 940px;
-    font-size: 2.5em;
-    font-weight: 700;
-    margin: 60px 940px;
-}
-
-h2 {
-    max-width: 940px;
-    font-size: 1.5em;
-    font-weight: 700;
-    margin: 40px 300px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  background-color: #1b1b32;
 }
 
 .App {
-    min-height: 100vh; /*view x height permite que se adapte a la altura del navegador y del dispositivo */
-    display: flex; /* Flex: forma o herramienta para definir como se van a ubicar los diferentes elementos dentro del contenedor*/
-    flex-wrap: wrap; /*Un elemento toma todo el ancho del contenedor, los demás elementos pasarán a la fila de abajo*/
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: roboto;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-image: 500px;
+}
+
+img.freecodecamp-logo {
+  border-radius: 15px;
 }
 
 .contenedor-principal {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
